@@ -31,13 +31,6 @@ Explainable Artificial Intelligence (XAI) has gained renewed interest as increas
 
 
 
-## Building the Thesis  
-You’ll need a typical LaTeX toolchain (e.g. TeX Live or MikTeX). From the project root:
-```bash
-cd src
-latexmk -pdf main.tex       # or: pdflatex main.tex && bibtex main && pdflatex main.tex
-mv main.pdf ../thesis.pdf   # Move final PDF to project root
-```
 
 ## Citing This Work  
 If you use this thesis in your research, please cite it as:  
